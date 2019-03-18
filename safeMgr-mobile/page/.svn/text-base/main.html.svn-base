@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>主界面</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="stylesheet" href="../css/third-mui/mui.min.css">
+        <link rel="stylesheet" href="../css/main.css" />
+    </head>
+
+    <body>
+        <header class="mui-bar mui-bar-nav">
+            <h1 id="title" class="mui-title" style="color: white;">首页</h1>
+            <img id="img-report" src="../images/main-ysc.png" class="mui-pull-right nav-img" style="display: none;" />
+        </header>
+        <nav class="mui-bar mui-bar-tab">
+            <a id="tabber-border" class="mui-tab-item mui-active" href="board/board.html">
+                <span class="mui-icon mui-icon-home"><span class="mui-badge">6</span></span>
+                <span class="mui-tab-label">首页</span>
+            </a>
+            <a id="tabber-core" class="mui-tab-item" href="core/core.html">
+                <span class="mui-icon mui-icon-list"></span>
+                <span class="mui-tab-label">核心要素</span>
+            </a>
+            <!--<a id="tabber-resources" class="mui-tab-item" href="resources/resources.html">
+                <span class="mui-icon mui-icon-info"></span>
+                <span class="mui-tab-label">辅助管理</span>
+            </a>-->
+            <a id="tabber-settings" class="mui-tab-item" href="settings/settings.html">
+                <span class="mui-icon mui-icon-contact"></span>
+                <span class="mui-tab-label">我的</span>
+            </a>
+        </nav>
+    </body>
+
+    <script src="../js/third-mui/mui.min.js"></script>
+    <script src="../js/third-jquery/jquery.min.js"></script>
+    <script src="../js/third-echarts/echarts.min.js"></script>
+
+    <script src="../js/common/common.js"></script>
+    <script src="../js/common/local-data.js"></script>
+    <script src="../js/common/network-utils.js"></script>
+    <script src="../js/common/download-utils.js"></script>
+    <script src="../js/person/person-img.js"></script>
+
+    <script src="../js/request/request-constants.js"></script>
+    <script src="../js/request/login-method.js"></script>
+    <script src="../js/request/account-info-method.js"></script>
+    <script src="../js/request/rest-method.js"></script>
+    <script src="../js/common/result-utils.js"></script>
+    <script src="../js/request/update-method.js"></script>
+    <script src="../js/my/update.js"></script>
+
+    <script src="../js/my/main.js"></script>
+
+</html>

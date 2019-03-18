@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/app/!svn/ver/11/company/project
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/app/!svn/ver/10/company/project/.project
+END
+manifest.json
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/app/!svn/ver/10/company/project/manifest.json
+END

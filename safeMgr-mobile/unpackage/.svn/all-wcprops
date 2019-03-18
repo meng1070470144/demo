@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/app/!svn/ver/10/company/project/unpackage
+END
+.dependencies
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/app/!svn/ver/10/company/project/unpackage/.dependencies
+END
+.confirmed_dependencies
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/app/!svn/ver/10/company/project/unpackage/.confirmed_dependencies
+END

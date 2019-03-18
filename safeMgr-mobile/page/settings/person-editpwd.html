@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" class="feedback">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <title>修改密码</title>
+        <link rel="stylesheet" type="text/css" href="../../css/third-mui/mui.min.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/common/top.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/common/button.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/settings/person-common.css" />
+    </head>
+
+    <body class="mui-fullscreen">
+        <div id="editpwd" class="mui-page">
+            <div id="title-top" class="mui-navbar-inner mui-bar mui-bar-nav">
+                <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
+                    <span class="mui-icon mui-icon-left-nav"></span>
+                </button>
+                <h1 class="mui-center mui-title">修改密码</h1>
+            </div>
+            <div class="mui-page-content">
+                <div class="mui-scroll-wrapper" id="pwd-content">
+                    <div class="mui-scroll">
+                        <form class="mui-input-group">
+                            <div class="mui-input-row">
+                                <label>当前密码</label>
+                                <input id='oldPassword' type="password" class="mui-input-clear mui-input" placeholder="请输入当前密码">
+                            </div>
+                            <div class="mui-input-row">
+                                <label>新的密码</label>
+                                <input id='newPassword' type="password" class="mui-input-clear mui-input" placeholder="请输入新密码">
+                            </div>
+                            <div class="mui-input-row">
+                                <label>确认密码</label>
+                                <input id='confirmPassword' type="password" class="mui-input-clear mui-input" placeholder="请确认新密码">
+                            </div>
+                        </form>
+
+                        <div class="mui-content-padded">
+                            <button id='confirmModify' class="mui-btn mui-btn-block mui-btn-primary mui-btn-red common-btn">确认修改</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../../js/third-mui/mui.min.js"></script>
+        <script src="../../js/third-mui/mui.view.js"></script>
+        <script src="../../js/third-jquery/jquery.min.js"></script>
+
+        <script src="../../js/common/common.js"></script>
+        <script src="../../js/common/local-data.js"></script>
+        <script src="../../js/common/network-utils.js"></script>
+        <script src="../../js/request/login-method.js"></script>
+        <script src="../../js/request/request-constants.js"></script>
+        <script src="../../js/request/account-info-method.js"></script>
+        <script src="../../js/common/result-utils.js"></script>
+
+        <script src="../../js/person/person-editpwd.js"></script>
+
+    </body>
+
+</html>

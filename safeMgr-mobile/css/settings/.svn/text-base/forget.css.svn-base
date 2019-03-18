@@ -1,0 +1,45 @@
+.mui-page-content {
+    margin-top: 60px;
+}
+
+#send {
+    height: 38px;
+    margin-top: 1px;
+    width: 38%;
+    background: #2fb2f0;
+    color: white;
+    border: none;
+}
+
+.mui-content {
+    margin-top: 20px;
+}
+
+.mui-input-row {
+    border: none;
+}
+
+#forgetB {
+    margin-top: 40%;
+}
+
+#per-title {
+    background-color: #2FB2F0;
+}
+
+#per-title span,
+#per-title h1 {
+    color: #FFFFFF;
+}
+
+.mui-input-row p {
+    margin-left: 10px;
+}
+
+#forget-yzm {
+    width: 60%;
+}
+
+.for-text {
+    font-size: 18px;
+}

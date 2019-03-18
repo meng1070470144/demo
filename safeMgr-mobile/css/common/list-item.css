@@ -1,0 +1,99 @@
+ul li {
+    border: none;
+}
+
+.mui-table {
+    float: left;
+}
+
+.mui-media-body span {
+    color: white;
+    font-size: 16px;
+}
+
+#p-des,
+.mui-ellipsis {
+    font-size: 16px;
+    margin-left: 0;
+    color: white;
+}
+
+#detail-show {
+    width: 95%;
+    margin: 5px auto;
+}
+
+#description {
+    height: 40px;
+    overflow: hidden;
+}
+
+.mui-input-row {
+    margin: 5px 0px;
+}
+
+textarea {
+    color: black;
+}
+
+#btnClose,
+#btnSave,
+#btnSubmit {
+    margin: 5px;
+    border-color: #2fb2f0;
+    color: #2fb2f0;
+}
+
+.p-name {
+    border-top: 1px solid #B6B6B6;
+    text-align: right;
+}
+
+.p-name button {
+    width: 25%;
+    margin: 5px;
+}
+
+#image-list {
+    color: black;
+}
+
+form label {
+    color: #2fb2f0;
+}
+
+.workflow-image-item {
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    vertical-align: top;
+}
+
+.workflow-image-close {
+    position: absolute;
+    display: inline-block;
+    right: 2px;
+    top: -6px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 12px;
+    background-color: #FF5053;
+    color: #f3f3f3;
+    border: solid 1px #FF5053;
+    font-size: 9px;
+    font-weight: 200;
+    z-index: 1;
+}
+
+
+/*table img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}*/

@@ -1,0 +1,21 @@
+.header-center{
+	width: 100%;
+	text-align: center;
+}
+.img-center{
+	margin:20px auto 0 auto;
+/*	height: 10px;
+	width: 10px;*/
+}
+.h5-style{
+	color: #000000;
+	font-family: "微软雅黑";
+	font-size: 0.9em;
+}
+.forget{
+	font-family: "微软雅黑";
+	font-size: 0.9em;
+}
+.mui-content{
+	text-align: center;
+}

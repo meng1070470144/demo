@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" class="feedback">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <title>关于</title>
+        <link rel="stylesheet" type="text/css" href="../../css/third-mui/mui.min.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/common/top.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/settings/person-common.css" />
+    </head>
+
+    <body class="mui-fullscreen">
+
+        <div id="about_page" class="mui-page">
+
+            <div id="title-top" class="mui-navbar-inner mui-bar mui-bar-nav">
+                <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
+                    <span class="mui-icon mui-icon-left-nav"></span>
+                </button>
+                <h1 class="mui-center mui-title">关于</h1>
+            </div>
+
+            <div id="scroll-board" class="mui-page-content" style="margin-top: 50px;">
+                <div class="mui-scroll">
+                    <div style="width: 100%; height: auto; margin-top: 30px; margin-bottom: 80px; text-align: center;">
+                        <img src="../../images/logo.png" style="width: 100px; height: 100px;" />
+                        <h4 style="color: black">企业安全管家</h4>
+                    </div>
+
+                    <ul class="mui-table-view">
+                        <li class="mui-table-view-cell">
+                            <a>版本<span id="span-version" class="mui-pull-right"></span></a>
+                        </li>
+                        <li class="mui-table-view-cell" style="display: none;">
+                            <a>客服电话<span class="mui-pull-right">666666</span></a>
+                        </li>
+                        <li id="user-advice" class="mui-table-view-cell">
+                            <a class="mui-navigate-right">用户反馈</a>
+                        </li>
+                        <li id="update" class="mui-table-view-cell">
+                            <a class="mui-navigate-right">检查更新</a>
+                        </li>
+                        <li id="li-qrcode-android" class="mui-table-view-cell mui-collapse" style="width: 100%;">
+                            <a class="mui-navigate-right" href="#">Android版本 二维码</a>
+                            <div class="mui-collapse-content" style="width: auto; height: auto; text-align: center;">
+                                <div id="div-qrcode-android"></div>
+                            </div>
+                        </li>
+                        <li id="li-qrcode-ios" class="mui-table-view-cell mui-collapse" style="width: 100%;">
+                            <a class="mui-navigate-right" href="#">IPhone版本 二维码</a>
+                            <div class="mui-collapse-content" style="width: auto; height: auto; text-align: center;">
+                                <div id="div-qrcode-ios"></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <p id="progress"></p>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="../../js/third-mui/mui.min.js"></script>
+        <script src="../../js/third-mui/mui.view.js"></script>
+        <script src="../../js/third-jquery/jquery.min.js"></script>
+        <script src="../../js/third-jquery/jquery.qrcode.min.js"></script>
+
+        <script src="../../js/common/common.js"></script>
+        <script src="../../js/common/local-data.js"></script>
+        <script src="../../js/common/network-utils.js"></script>
+        <script src="../../js/common/download-utils.js"></script>
+        <script src="../../js/request/login-method.js"></script>
+        <script src="../../js/request/request-constants.js"></script>
+        <script src="../../js/request/update-method.js"></script>
+        <script src="../../js/my/update.js"></script>
+        <script src="../../js/person/person-about.js"></script>
+
+    </body>
+
+</html>

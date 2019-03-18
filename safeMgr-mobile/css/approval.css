@@ -1,0 +1,22 @@
+.mui-page-content {
+    margin-top: 3em;
+    width: 100%;
+    background: white;
+}
+
+ul,
+p,
+html,
+body {
+    font-size: 18px;
+    color: #888888;
+    background: white;
+}
+
+#loginB {
+    height: 50px;
+    width: 100%;
+    background: #2FB2F0;
+    color: white;
+    margin-bottom: 20px;
+}

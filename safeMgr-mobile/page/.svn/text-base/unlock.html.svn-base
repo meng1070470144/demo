@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <title></title>
+        <link href="../css/third-mui/mui.min.css" rel="stylesheet" />
+        <link href="../css/third-mui/unlockstyle.css" rel="stylesheet" />
+        <link href="../css/unlock.css" rel="stylesheet" />
+    </head>
+
+    <body>
+
+        <header class="header-center">
+            <img class="img-center" src="../images/main-user.png" style="width: 70px; height: 70px; margin-top: 60px;" />
+        </header>
+
+        <div class="mui-content">
+            <div class="mui-content-padded" style="margin: 5px auto;">
+                <div class="mui-locker" data-locker-options='{"ringColor":"rgba(221,221,221,1)","fillColor":"#ffffff","pointColor":"rgba(0,136,204,1)","lineColor":"rgba(0,136,204,1)"}' data-locker-width='320' data-locker-height='320'>
+                </div>
+            </div>
+            <a id='forget' class="forget">忘记手势密码？</a>
+        </div>
+
+        <script src="../js/third-jquery/jquery.min.js"></script>
+        <script src="../js/third-mui/mui.min.js"></script>
+        <script src="../js/third-mui/mui.locker.js"></script>
+
+        <script src="../js/common/common.js"></script>
+        <script src="../js/common/local-data.js"></script>
+        <script src="../js/common/network-utils.js"></script>
+        <script src="../js/request/request-constants.js"></script>
+        <script src="../js/request/login-method.js"></script>
+        <script src="../js/my/unlock.js"></script>
+
+    </body>
+
+</html>

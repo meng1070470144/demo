@@ -1,0 +1,15 @@
+html,
+body {
+    background-color: #efeff4;
+    overflow: hidden;
+}
+
+.mui-locker {
+    margin: 0px auto;
+}
+
+#forget {
+    display: block;
+    margin-top: 0px;
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+.feedback body {
+    background-color: #EFEFF4;
+}
+
+.feedback .hidden {
+    display: none;
+}
+
+.feedback .mui-inline {
+    vertical-align: bottom;
+    font-size: 14px;
+    color: #8f8f94;
+}
+
+.mui-popover {
+    height: 180px;
+}
+
+x

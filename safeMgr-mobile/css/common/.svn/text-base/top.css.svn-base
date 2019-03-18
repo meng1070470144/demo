@@ -1,0 +1,13 @@
+.mui-content {
+    margin: 0;
+}
+
+#title-top {
+    background-color: #CE2A2B;
+}
+
+#title-top span,
+#title-top h1 {
+    color: #FFFFFF;
+    font-weight: bolder;
+}

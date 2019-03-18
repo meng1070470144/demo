@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="feedback">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <title>手势解锁</title>
+        <link rel="stylesheet" type="text/css" href="../../css/third-mui/mui.min.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/common/top.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/settings/person-common.css" />
+    </head>
+
+    <body class="mui-fullscreen">
+        <!--页面主结构开始-->
+        <div id="app" class="mui-views">
+            <div class="mui-view">
+                <div class="mui-navbar">
+                </div>
+                <div class="mui-pages">
+                </div>
+            </div>
+        </div>
+        <!--页面主结构结束-->
+        <!--单页面开始-->
+        <div id="setting" class="mui-page">
+            <div id="title-top" class="mui-navbar-inner mui-bar mui-bar-nav">
+                <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
+                    <span class="mui-icon mui-icon-left-nav"></span>
+                </button>
+                <h1 class="mui-center mui-title">手势解锁</h1>
+            </div>
+            <div class="mui-page-content">
+                <div class="mui-content-padded" id="pwd-content">
+                    <ul class="mui-table-view mui-table-view-chevron">
+                        <li class="mui-table-view-cell">
+                            使用手势解锁
+                            <div id="lockState" class="mui-switch">
+                                <div class="mui-switch-handle"></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="mui-locker" data-locker-width='320' data-locker-height='320' data-locker-options='{"ringColor":"rgba(221,221,221,1)","fillColor":"#ffffff","pointColor":"rgba(0,136,204,1)","lineColor":"rgba(0,136,204,1)"}'>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../../js/third-mui/mui.min.js"></script>
+        <script src="../../js/third-mui/mui.view.js"></script>
+        <script src="../../js/third-jquery/jquery.min.js"></script>
+        <script src="../../js/third-mui/mui.locker.js"></script>
+
+        <script src="../../js/my/app.js"></script>
+        <script src="../../js/common/common.js"></script>
+        <script src="../../js/common/local-data.js"></script>
+        <script src="../../js/common/network-utils.js"></script>
+        <script src="../../js/request/request-constants.js"></script>
+        <script src="../../js/request/login-method.js"></script>
+        <script src="../../js/request/account-info-method.js"></script>
+        <script src="../../js/common/result-utils.js"></script>
+        <script src="../../js/person/person-lock.js"></script>
+
+    </body>
+
+</html>

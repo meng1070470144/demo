@@ -1,0 +1,19 @@
+html,
+body {
+    background: white;
+    font-size: 18px;
+    background: #EFEFF4;
+}
+
+.mui-bar-nav {
+    background-color: #CE2A2B;
+}
+
+.nav-img {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 50%;
+    margin-top: -13px;
+    right: 20px;
+}

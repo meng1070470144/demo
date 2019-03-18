@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" class="feedback">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <title>基本信息</title>
+        <link rel="stylesheet" type="text/css" href="../../css/third-mui/mui.min.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/common/top.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/settings/person-common.css" />
+    </head>
+
+    <body class="mui-fullscreen">
+
+        <div id="accout_page" class="mui-page">
+            <div id="title-top" class="mui-navbar-inner mui-bar mui-bar-nav">
+                <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
+                    <span class="mui-icon mui-icon-left-nav"></span>
+                </button>
+                <h1 class="mui-center mui-title">基本信息</h1>
+            </div>
+            <div class="mui-page-content">
+                <div class="mui-scroll-wrapper">
+                    <div class="mui-scroll">
+                        <ul class="mui-table-view" style="margin-top: 50px;">
+                            <li class="mui-table-view-cell">
+                                <a id="head" class="mui-navigate-right">头像
+                                    <span class="mui-pull-right head">
+                                        <img class="head-img mui-action-preview" id="head-img" src=""/>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="mui-table-view-cell">
+                                <a>姓名<span id="span-realname" class="mui-pull-right"></span></a>
+                            </li>
+                            <li class="mui-table-view-cell">
+                                <a>单位<span id="span-corp" class="mui-pull-right"></span></a>
+                            </li>
+                        </ul>
+                        <ul class="mui-table-view">
+                            <li class="mui-table-view-cell">
+                                <a>部门<span id="span-dept" class="mui-pull-right"></span></a>
+                            </li>
+                            <li class="mui-table-view-cell">
+                                <a>角色<span id="span-roles" class="mui-pull-right"></span></a>
+                            </li>
+                            <li class="mui-table-view-cell">
+                                <a>手机号<span id="span-tel" class="mui-pull-right"></span></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="../../js/third-mui/mui.min.js"></script>
+        <script src="../../js/third-mui/mui.view.js"></script>
+        <script src="../../js/third-jquery/jquery.min.js"></script>
+
+        <script src="../../js/common/common.js"></script>
+        <script src="../../js/common/local-data.js"></script>
+        <script src="../../js/common/network-utils.js"></script>
+        <script src="../../js/request/request-constants.js"></script>
+        <script src="../../js/request/login-method.js"></script>
+        <script src="../../js/request/account-info-method.js"></script>
+        <script src="../../js/person/person-img.js"></script>
+        <script src="../../js/person/person-account.js"></script>
+
+    </body>
+
+</html>

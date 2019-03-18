@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>忘记密码</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+        <link rel="stylesheet" type="text/css" href="../../css/third-mui/mui.min.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/common/button.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/settings/forget.css" />
+
+    </head>
+
+    <body class="mui-fullscreen">
+        <div class="mui-page">
+            <div class="mui-navbar-inner mui-bar mui-bar-nav" style="background-color: #CE2A2B;">
+                <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
+                    <span class="mui-icon mui-icon-left-nav" style="color: #FFFFFF;"></span>
+                </button>
+                <h1 class="mui-center mui-title" style="color: #FFFFFF;font-weight: bolder;">忘记密码</h1>
+            </div>
+            <div class="mui-content">
+                <div class="mui-content-padded">
+                    <div class="mui-input-row">
+                        <input type="text" placeholder="请输入手机号">
+                        <input type="password" placeholder="请输入新的8-16位密码">
+                        <p>8-16位大小写字母、数字和符号的组合</p>
+                    </div>
+                    <div class="mui-input-row">
+                        <input id="forget-yzm" type="text" placeholder="请输入验证码">
+                        <button id="send">发送验证码</button>
+                    </div>
+                    <div>
+                        <button id='forgetB' class="mui-btn mui-btn-block mui-btn-primary mui-btn-red common-btn"><span class="for-text">提交</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="../../js/third-mui/mui.min.js"></script>
+
+</html>

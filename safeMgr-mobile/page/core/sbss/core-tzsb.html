@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <title>特种设备台账</title>
+        <link rel="stylesheet" type="text/css" href="../../../css/third-mui/mui.min.css" />
+        <link href="../../../css/third-mui/mui.picker.min.css" rel="stylesheet" />
+        <link href="../../../css/third-mui/mui.poppicker.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="../../../css/common/top.css" />
+        <link rel="stylesheet" type="text/css" href="../../../css/operation/operation.css" />
+        <link rel="stylesheet" type="text/css" href="../../../css/operation/operation-common.css" />
+    </head>
+
+    <body class="mui-fullscreen">
+        <div class="mui-page">
+            <div id="title-top" class="mui-navbar-inner mui-bar mui-bar-nav">
+                <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
+                    <span class="mui-icon mui-icon-left-nav"></span>
+                </button>
+                <h1 class="mui-center mui-title">特种设备台账</h1>
+                <button id="button-refresh" type="button" class="mui-right mui-btn mui-btn-link mui-btn-nav mui-pull-right">
+                    <span class="mui-icon mui-icon-refreshempty"></span>
+                </button>
+            </div>
+            <div id="page-content" class="mui-page-content">
+                <div class="card">
+                    <ul class="mui-table-view">
+                        <li id="li-search-panel" class="mui-table-view-cell mui-collapse">
+                            <a class="mui-navigate-right" href="#">查询条件框</a>
+                            <div class="mui-collapse-content">
+                                <form class="mui-input-group">
+                                    <div class="mui-input-row">
+                                        <label style="width: 35%;">项目名称</label>
+                                        <input id="name-value" type="text" class="mui-input-clear" placeholder="请输入项目名称">
+                                    </div>
+                                    <div class="mui-input-row">
+                                        <label style="width: 35%;">所属单位</label>
+                                        <input id="" type="text" class="mui-input-clear" placeholder="请选择所属单位 ">
+                                    </div>
+                                    <div class="mui-button-row">
+                                        <button id="confirm" class="mui-btn mui-btn-primary mui-icon mui-icon-search" type="button" onclick="return false;">查询</button>&nbsp;&nbsp;
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <ul id="content" class="mui-table-view" style="display: none;">
+
+                </ul>
+                <div id="div-error" align="center" style="display: none;">
+                    <img id="img-error" src="">
+                    <p id="span-error"></p>
+                </div>
+                <br>
+            </div>
+        </div>
+
+        <script src="../../../js/third-mui/mui.min.js"></script>
+        <script src="../../../js/third-jquery/jquery.min.js"></script>
+        <script src="../../../js/third-mui/mui.picker.min.js"></script>
+        <script src="../../../js/third-mui/mui.poppicker.js"></script>
+        <script src="../../../js/common/common.js"></script>
+        <script src="../../../js/common/local-data.js"></script>
+        <script src="../../../js/common/network-utils.js"></script>
+        <script src="../../../js/common/business-html-util.js"></script>
+
+        <script src="../../../js/request/request-constants.js"></script>
+        <script src="../../../js/request/login-method.js"></script>
+        <script src="../../../js/common/result-utils.js"></script>
+        <script src="../../../js/request/account-info-method.js"></script>
+        <script src="../../../js/request/business-info-method.js"></script>
+        <script src="../../../js/operation/operation-common.js"></script>
+        <script src="../../../js/core/sbss/core-tzsb.js"></script>
+        </body>
+</html>

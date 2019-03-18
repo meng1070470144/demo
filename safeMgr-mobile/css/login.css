@@ -1,0 +1,109 @@
+.mui-navbar-inner {
+    background: #073F4D;
+}
+
+.mui-views,
+.mui-view,
+.mui-pages,
+.mui-page,
+.mui-page-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mui-table-view,
+.mui-table-view-chevron,
+.mui-input-row,
+.mui-input-group {
+    border: none;
+    background: none;
+    color: white;
+}
+
+.mui-input-group {
+    width: 90%;
+    margin: auto;
+}
+
+.mui-content-padded {
+    width: 90%;
+    margin: 10% auto;
+}
+
+#login-button {
+    height: 52px;
+    width: 100%;
+}
+
+#login-form {
+    margin-top: 15%;
+    position: fixed!important;
+    margin-left: 5%;
+}
+
+.mui-input-clear {
+    color: black;
+}
+
+.login-form-input {
+    font-size: 16px;
+    font-family: '微软雅黑';
+    margin-left: 80px;
+    color: black;
+    input::-webkit-input-placeholder {
+        color: black;
+    }
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+    color: #3399FF;
+    font-size: 16px;
+}
+
+.mui-page-content {
+    position: fixed!important;
+}
+
+#logod {
+    margin: auto;
+    margin-top: 3.5em;
+    width: 100%;
+    text-align: center;
+}
+
+#logod img {
+    width: 4.5em;
+    height: 4.5em;
+    text-align: center;
+}
+
+#forget {
+    margin-left: 5px;
+}
+
+.mui-input-group .mui-input-row::after {
+    background-color: #c8c7cc;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: scaleY(0.5);
+}
+
+.login-form-icon {
+    width: 26px;
+    height: 26px;
+    margin-left: 20px;
+    position: absolute;
+    top: 50%;
+    margin-top: -13px;
+}

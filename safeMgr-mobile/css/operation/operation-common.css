@@ -1,0 +1,76 @@
+html,
+body {
+    color: #888888;
+    font-size: 18px;
+}
+
+.mui-icon {
+    color: white;
+}
+
+img {
+    width: 30px;
+    vertical-align: middle;
+}
+
+table {
+    width: 100%;
+}
+
+table tr {
+    border-bottom: 1px solid #e1e1e1;
+    height: 50px;
+}
+
+#map span {
+    top: -2px;
+    font-size: 119%;
+}
+
+.tr_name {
+    width: 28%;
+    /*    width: 100px;*/
+    /*    position: fixed;*/
+    color: #333333;
+    text-align: left;
+}
+
+.tr_names {
+    width: 28%;
+    color: #333333;
+    text-align: left;
+}
+
+.span-qymc {
+    padding-left: 3%;
+}
+
+.td_name {
+    text-align: right;
+    width: 50%;
+    word-wrap: break-word;
+}
+
+.td_names {
+    text-align: right;
+    width: 70%;
+    word-wrap: break-word;
+}
+
+
+/*弹框*/
+
+.mui-popover {
+    height: 300px;
+    width: 97%;
+    margin: auto;
+}
+
+.ctrl {
+    margin-left: 100px;
+}
+
+#content {
+    width: 95%;
+    margin: auto;
+}
